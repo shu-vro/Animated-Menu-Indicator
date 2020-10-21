@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+nav a{
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 5px;
+    margin: 0 10px;
+    color: white;
+}
+#marker{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    border-radius: 10px;
+    background: #ffffff;
+    transition: .25s linear;
+}
